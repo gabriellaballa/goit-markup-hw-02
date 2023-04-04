@@ -1,0 +1,27 @@
+:root {
+  --interactiv-color: #2196f3;
+}
+body {
+  color: #212121;
+  font-family: "Roboto", "Helvetica now", "Proxima Nova";
+}
+button:hover {
+  color: #ffffff;
+  background-color: var(--interactiv-color);
+}
+a:hover {
+  color: var(--interactiv-color);
+}
+
+.logo {
+  font-size: 26px;
+}
+
+.blue-logo {
+  color: #2196f3;
+  text-decoration: none;
+}
+.black-logo {
+  color: #000000;
+  text-decoration: none;
+}
